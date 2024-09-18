@@ -8,26 +8,13 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+     <header s> 
+      <h1>hello sitters</h1>
+      <p>The web application operates with a user-friendly design that caters to both babies and elders. It features intuitive navigation, allowing users to easily access various activities. For babies, it includes interactive games that promote sensory development, such as touch-responsive animations and calming music. Elders can enjoy memory-boosting puzzles and storytelling options that stimulate cognitive engagement.
+
+The app supports voice commands for hands-free interaction, making it accessible for those with mobility issues. Additionally, it allows caregivers to customize content and monitor engagement, fostering shared experiences. Regular updates introduce new activities to keep the experience fresh and engaging for both demographics, ensuring fun and meaningful interactions across generations.
+   
+   </p>  </header>
     </>
   )
 }
